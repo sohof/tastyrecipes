@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title> Meatball Recipe</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="../css/reset.css">
+        <link type="text/css" rel="stylesheet" href="../css/style.css">
+       <!-- Set icon for title bar. Can only be .png or .ico file -->
+        <link rel="icon" type="image/png" href="../pix/favicon.png"/>
+
+    </head>
+    <body>
+        <nav>
+            <ul class="navleft">
+                <li><a href="../index.html">Home </a> </li>
+                <li><a href="../calendar.html">Calendar</a> </li>
+                <li><a href="../calendar.html">Contact</a> </li>
+                <li><a href="../calendar.html">About</a> </li>
+                <li id="signin"><a href="">Sign In</a> </li>     
+
+            </ul>                    
+        </nav>        
+        <h1>Delicious Meatball Recipe</h1>
+        <figure>
+            <img src="../pix/meatballs-big.jpg" alt="Meatballs" class="frontpics" style="width:50%;"/>
+
+            <figcaption>Homemade meatballs always taste the best </figcaption>
+        </figure>
+        
+        <div class="preptime"> <span>Preparation: 20 min. </span> <span>Cooking: 30 min. </span><span>Yield: 4-5 servings </span>  </div>
+        
+        <section class="ingredients">
+            <hr/>
+            <h2>Ingredients</h2>
+
+            <ul class="ingredients">
+                <li>2 pounds ground beef </li>
+                <li>2 cloves garlic </li>
+                <li>2 eggs </li>
+                <li>1 1/2 cups lukewarm water </li>
+                <li>1 cup olive oil</li>
+                <li>salt and ground black pepper to taste</li>
+
+            </ul>
+        </section>
+
+        <section class="directions">
+            <hr/>
+            <h2>Directions</h2>
+            <ol class="directions">
+                <li><p class="directions"> Combine beef, veal, and pork in a large bowl. Add garlic, eggs, cheese, parsley, salt and pepper.</p></li>
+                <li><p class="directions"> Blend bread crumbs into meat mixture. Slowly add the water 1/2 cup at a time. The mixture should 
+                        be very moist but still hold its shape if rolled into meatballs. (I usually use about 1 1/4 cups 
+                        of water). Shape into meatballs.</p></li>
+                <li><p class="directions">Heat olive oil in a large skillet. Fry meatballs in batches. When the meatball is very brown and 
+                        slightly crisp remove from the heat and drain on a paper towel. (If your mixture is too wet, cover 
+                        the meatballs while they are cooking so that they hold their shape better.) </p></li>
+            </ol>
+            <hr/>
+        </section>
+         <section class="comments">
+            <h2>Comments</h2>
+        <div class="comment-section">
+             <div class ="comment">
+                <p> I tried this recipe and the meatballs turned out great. So juicy and flavorful. </p>
+            </div>
+             <div class ="comment">
+                <p> Did not like the taste.  </p>
+            </div>
+        </div>
+        </section>
+       <br><br>
+       
+       <!--target attribute specifies if the submitted result will open in a new browser tab, a frame, or in the 
+       current window.  If the name attribute is omitted, data of that input field will not be sent at all. -->
+      <form action="/submit-comment.php" method="get" target="_self">
+        Name:<br>
+        <input type="text" name="name" placeholder="Enter your name here">
+        <br>
+        <textarea name="comment" placeholder="Enter your comment here" rows="10" cols="40"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form> 
+  
+        
+    </body>
+</html>

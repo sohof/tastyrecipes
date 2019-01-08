@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title> Pancakes Recipe</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="../css/reset.css">
+        <link type="text/css" rel="stylesheet" href="../css/style.css">
+       <!-- Set icon for title bar. Can only be .png or .ico file -->
+        <link rel="icon" type="image/png" href="../pix/favicon.png"/>
+
+    </head>
+    <body>
+        <nav>
+            <ul class="navleft">
+                <li><a href="../index.html">Home </a> </li>
+                <li><a href="../calendar.html">Calendar</a> </li>
+                <li><a href="../calendar.html">Contact</a> </li>
+                <li><a href="../calendar.html">About</a> </li>
+                <li id="signin"><a href=""> Sign In</a> </li>     
+
+            </ul>                    
+        </nav>
+        <h1>Delicious Pancakes </h1>
+        <figure>
+            <img src="../pix/panncakes.jpg" alt="Pancakes" class="frontpics" style="max-width:50%;"/>
+
+            <figcaption>Perfect pancakes for a yummy breakfast</figcaption>
+        </figure>
+         <div class="fixed">
+            <img src="../pix/tasty-recipes.png" alt="Tast Recpies" class="fixed" style="max-width:25%;"/>
+        </div>
+       
+        <div class="preptime"> <span>Preparation: 15 min. </span> <span>Cooking: 30 min. </span><span>Yield: 6-7 servings </span>  </div>
+        
+        <section class="ingredients">
+            <hr/>
+            <h2>Ingredients</h2>
+            
+            <ul class="ingredients">
+                <li>100g flour  </li>
+                <li>2 eggs </li>
+                <li>1 1/2 cups milk  </li>
+                <li>2 tbsp sunflower oil for frying</li>
+                <li>pinch of salt</li>
+
+            </ul> 
+        </section>
+      
+        <section class="directions" > 
+        <hr/>    
+        <h2>Directions</h2>
+       
+        <ol class="directions">
+            <li><p class="directions">
+                    Put the flour and a pinch of salt into a large mixing bowl. Make a well in the centre 
+                    and crack the eggs into the middle. Pour in about 50ml milk and 1 tbsp oil. Start whisking from the 
+                    centre, gradually drawing the flour into the eggs, milk and oil. Once all the flour is incorporated, 
+                    beat until you have a smooth, thick paste. Add a little more milk if it is too stiff to beat.
+                </p></li>
+            <li><p class="directions">
+                    Add a good splash of milk and whisk to loosen the thick batter. While still whisking, 
+                    pour in a steady stream of the remaining milk. Continue pouring and whisking until you have a batter 
+                    that is the consistency of slightly thick single cream.
+                </p></li>
+            <li><p class="directions">
+                    Heat the pan over a moderate heat, then wipe it with oiled kitchen paper. Ladle some batter into the pan, 
+                    tilting the pan to move the mixture around for a thin and even layer. Quickly pour any excess batter 
+                    into a jug, return the pan to the heat, then leave to cook, undisturbed, for about 30 secs. Pour the 
+                    excess batter from the jug back into the mixing bowl. If the pan is the right temperature, the pancake 
+                    should turn golden underneath after about 30 secs and will be ready to turn.    
+                </p></li>
+            
+            <li><p class="directions">
+                    Hold the pan handle, ease a palette knife under the pancake, then quickly lift and flip it over. Make sure 
+                    the pancake is lying flat against the base of the pan with no folds, then cook for another 30 secs before 
+                    turning out onto a warm plate. Continue with the rest of the batter, serving them as you cook or stack onto 
+                    a plate. You can freeze the pancakes for 1 month, wrapped in cling film or make them up to a day ahead.
+                </p></li>
+
+        </ol>
+         <hr/>
+        </section>
+        
+         <section class="comments">
+            <h2>Comments</h2>
+        <div class="comment-section">
+             <div class ="comment">
+                <p> This recipe was delightful. </p>
+            </div>
+             <div class ="comment">
+                <p> Never had better pancakes.  </p>
+            </div>
+        </div>
+        </section>
+       <br><br>
+       
+       <!--target attribute specifies if the submitted result will open in a new browser tab, a frame, or in the 
+       current window.  If the name attribute is omitted, data of that input field will not be sent at all. -->
+      <form action="/submit-comment.php" method="get" target="_self">
+        Name:<br>
+        <input type="text" name="name" placeholder="Enter your name here">
+        <br>
+        <textarea name="comment" placeholder="Enter your comment here" rows="10" cols="40"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form> 
+    </body>
+</html>

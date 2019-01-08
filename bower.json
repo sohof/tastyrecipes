@@ -1,0 +1,15 @@
+{
+  "name": "tastyrecipes",
+  "version": "1.0.0",
+  "main": "path/to/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "jqueryui": "1.12.1",
+    "jquery": "3.2.1",
+    "jquery-ui": "jquery.ui#1.12.1"
+  },
+  "devDependencies": {}
+}

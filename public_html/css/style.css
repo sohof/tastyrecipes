@@ -1,0 +1,188 @@
+body {
+   font-family: Helvetica, "Times New Roman", Coursera;
+   font-size: 100%;
+   margin: 2%;
+   padding:0;
+   background-color: #FFFFFF;
+   text-align: justify;
+
+}
+
+.ingredients li {
+  list-style-type: none;
+  margin:5px -5px;
+  padding:10px 5px 5px 50px;
+  background: url("../pix/favicon2.png") no-repeat left top;
+  
+}
+
+nav { width:96vw;}
+
+.frontpics {margin-left: -3%;
+           height:auto;
+           max-width: 100%;
+}
+
+.comments p { 
+   font-family: "Courier New", Arial, Coursera;
+   font-size: 100%;
+   margin: 2%;
+   padding:0;
+   background-color: #FFFFFF;
+   text-align: justify;
+}
+/* When the text-align property is set to "justify", each line is stretched so that every line has equal width, 
+and the left and right margins are straight (like in magazines and newspapers)      */ 
+
+.fixed {
+    position:fixed;
+    top:130px;
+    right:30px;
+    display:inline;
+}
+
+.navleft {
+    font-size: 1.5em;
+    list-style-type: none;     
+    border:0;
+    margin: 0 0 10px 0;
+    padding-top:10px;
+    overflow:hidden;
+    border-radius: 5px;
+    background-image: url("../pix/white-wood.jpg");
+    text-align: center;
+
+}
+
+
+
+.navleft li {
+    float:left;
+    color:black;
+    list-style-type: none;     
+    text-align: center;
+    padding:15px;
+}
+ul.navleft a:link {
+    color:black;
+}
+ul.navleft a:visited {
+    color:black;
+}
+ul.navleft a:hover {
+    color:white;
+    font-style: italic;
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: outside;
+    margin-left:20px
+}
+
+#signin {float:right;}
+
+.preptime span{
+     text-align: center;
+     padding-top:1px;
+     font-size: 1.5em;
+    background-color: #eee;
+}
+
+
+h1 {color:sienna;
+    font-size: 2em;
+    text-align: left;
+    clear:both;
+    text-shadow: 1px 1px;
+}
+h2 {color:#ff0084;
+    font-size: 1.4em;
+    text-align: left;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+p {margin-left:10px;
+   font-size: 1em;
+}
+
+
+
+.calendar-icon {
+width: 150px;
+height: 120px;
+}
+
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 5px;
+    padding: 10px 0;
+    background-color:#ddd;
+    border: 2px solid;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 14%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 5px;
+    border: 2px solid;
+
+}
+table {
+    width:100%
+    
+}
+th {
+    width:14.2%;
+    height:30px;
+    padding:5px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+
+    text-align:center;
+    background-color: #e8e1b5;
+    border-collapse: collapse;
+
+}
+tr:nth-child(odd) {
+    background-color: #eee
+}
+td {width:14.2%;
+    height:110px;    
+    border: 1px solid gray;
+    border-collapse: collapse;
+    
+}
+a:link {
+    color: blue;
+    font-family: Helvetica, Coursera;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:visited {
+    color:blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+    color:red;
+    text-decoration: underline;
+    background-color: transparent;
+
+}
+a:active {
+    background-color: transparent;
+    text-decoration: none;
+}
+
