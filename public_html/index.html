@@ -20,7 +20,7 @@
             <ul class="navleft">
                 <li><a href="index.html">Home </a> </li>
                 <li><a href="calendar.html">Calendar</a> </li>
-                <li><a href="calendar.html">Contact</a> </li>
+                <li><a href="">Contact</a> </li>
                 <li><a href="">About</a> </li>
                 <li id="signin"><a href=""> Sign In</a> </li>     
 
@@ -29,11 +29,18 @@
         <header>
                
         </header>
-
         <!-- Content inside Main should be unique to the document, it should
         not contain any content that is repeated across documents such as side bars, navigation links etc -->
         <main>
-            <h1>Welcome To Tasty Recipes! </h1>
+            <div style="float:right"> 
+                <form action="/action_page.php">
+                        Search Recipes
+                        <!-- input type="search" is used for search fields (behaves like a regular text field) -->
+                        <input type="search" name="search">
+                        <input type="submit">
+                </form>  
+            </div>
+            <h1>Welcome To Tasty Recipes! </h1> 
             <!-- attribute title provides tooltip info when mouse is hovered over the element  -->
             <h2 title="Click on the calendar link above">Please check out our calendar for delicious recipes!</h2>
             <figure> <img src="pix/background.jpg" alt="Background Kitchen Table" class="frontpics"/> </figure>      

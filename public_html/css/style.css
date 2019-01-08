@@ -12,7 +12,7 @@ body {
   list-style-type: none;
   margin:5px -5px;
   padding:10px 5px 5px 50px;
-  background: url("../pix/favicon2.png") no-repeat left top;
+  background: url("../pix/list-item-icon.png") no-repeat left top;
   
 }
 
@@ -53,8 +53,6 @@ and the left and right margins are straight (like in magazines and newspapers)  
     text-align: center;
 
 }
-
-
 
 .navleft li {
     float:left;
@@ -105,8 +103,6 @@ h2 {color:#ff0084;
 p {margin-left:10px;
    font-size: 1em;
 }
-
-
 
 .calendar-icon {
 width: 150px;
