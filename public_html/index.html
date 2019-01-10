@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-US"> 
-    <!-- The language is declared with the lang attribute. Declaring a language is important for accessibility 
+ <!-- The language is declared with the lang attribute. Declaring a language is important for accessibility 
     applications (screen readers) and search engines: -->
+<html lang="en-US"> 
     <head>
         <title>Tasty Recipes </title>
         <meta charset="UTF-8">
-        <!-- setting viewport gives the browser ins on how to control the pages dimensions and scaling -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!--  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-        <script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.js"></script>   -->
         <link type="text/css" rel="stylesheet" href="css/reset.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <!-- Set icon for title bar. Can only be .png or .ico file -->
         <link rel="icon" type="image/png" href="pix/favicon.png"/>
 
     </head>
+     <!-- The <head> element is a container for metadata placed between the <html> tag and the <body> tag. 
+     Metadata typically define the document title, character set, styles, links, scripts, and other meta information. 
+     The following tags placed inside <head> describe metadata: <title>, <style>, <meta>, <link>, <script>, and <base>. 
+     The <title>, element defines the title of the document, and is required in all HTML/XHTML documents. It
+     a)  defines a title in the browser tab. b) provides a title for the page when it is added to favorites. 
+     c) displays a title for the page in search engine results
+     The <style> element is used to define style information for a single HTML page. 
+     The <meta> element is used to specify which character set is used, page description, keywords, author, and other metadata. 
+     Metadata is used by browsers (how to display content), by search engines (keywords), and other web services.
+ -->
     <body>
         <nav>
             <ul class="navleft">
                 <li><a href="index.html">Home </a> </li>
                 <li><a href="calendar.html">Calendar</a> </li>
-                <li><a href="">Contact</a> </li>
-                <li><a href="">About</a> </li>
+                <li><a href="recipes/meatballs.html">Meatballs</a> </li>
+                <li><a href="recipes/panncakes.html">Pancakes</a> </li>
                 <li id="signin"><a href=""> Sign In</a> </li>     
 
             </ul>                    
@@ -32,23 +39,23 @@
         <!-- Content inside Main should be unique to the document, it should
         not contain any content that is repeated across documents such as side bars, navigation links etc -->
         <main>
-            <div style="float:right"> 
+            <div id="searchbar"> 
                 <form action="/action_page.php">
                         Search Recipes
                         <!-- input type="search" is used for search fields (behaves like a regular text field) -->
                         <input type="search" name="search">
-                        <input type="submit">
+                        <input type="submit" class="submitbutton" value="Start Search" name="submit">
                 </form>  
             </div>
             <h1>Welcome To Tasty Recipes! </h1> 
             <!-- attribute title provides tooltip info when mouse is hovered over the element  -->
             <h2 title="Click on the calendar link above">Please check out our calendar for delicious recipes!</h2>
-            <figure> <img src="pix/background.jpg" alt="Background Kitchen Table" class="frontpics"/> </figure>      
+            <figure> <img class="frontpics" src="pix/background.jpg" alt="Background Kitchen Table" /> </figure>      
 
         </main>
 
         <footer>
-            &copy; 2018 by Sohof Dastmard <br/>
+            &copy; 2019 by Sohof Dastmard <br/>
             <!-- target blank opens in a new window or tab-->
             <a href="https://validator.w3.org/" target="_blank">W3 Validate Your Page</a>
         </footer>
