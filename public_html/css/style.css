@@ -70,12 +70,7 @@ ol {
 /* When the text-align property is set to "justify", each line is stretched so that every line has equal width, 
 and the left and right margins are straight (like in magazines and newspapers)      */ 
 
-.fixed {
-    position:fixed;
-    top:130px;
-    right:30px;
-    display:inline;
-}
+
 /* Styling & layout of the navigation menu used in all pages. . */
 .navleft {
     font-size: 1.5em;
